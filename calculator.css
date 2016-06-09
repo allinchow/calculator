@@ -1,0 +1,50 @@
+.strange-calc {
+    display: table;
+	border: 2px solid #ccc;
+    border-radius: 3px;
+	width: 300px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+.strange-calc button {
+	float: left;
+    font-size: 24px;
+    width: 25%;
+    border: 1px solid #fff;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 0;
+    transition: .1s;
+}
+.strange-calc button:hover {
+    background: #E6D7D7;
+}
+.strange-calc button:focus {
+    outline: none;
+}
+.sc-screen {
+    font-size: 42px;
+    text-align: right;
+    padding: 5px 10px;
+}
+.sc-btn-wrap {
+    display: table;
+}
+.sc-num,
+.sc-num:focus {
+    background: #DCDCDC;
+}
+.sc-func {
+    background: #a7a9ac;
+}
+.sc-func:focus {
+    background: #EABCBC;
+}
+.strange-calc .sc-btn-wide {
+    width: 50%;
+}
+.sc-highlight {
+    background: #ccc;
+}
